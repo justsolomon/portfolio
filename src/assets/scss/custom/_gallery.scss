@@ -1,0 +1,31 @@
+.details-illustration {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+
+  .icon-list {
+    display: flex;
+
+    .icon {
+      color: #718096;
+      font-size: 24px;
+      margin-left: 1rem;
+    }
+  }
+
+  .skills-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    &__item {
+      margin-right: 4px;
+      border-radius: 0.35em;
+      padding: 0px 10px;
+      background-color: #718096;
+      color: #ffffff;
+      font-size: 13px;
+    }
+  }
+}
