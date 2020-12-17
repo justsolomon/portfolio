@@ -1,11 +1,12 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "portfolio",
+  "description": "Gbolahan Balogun's Portfolio Website",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Gbolahan Balogun",
   "dependencies": {
     "gatsby": "^2.20.12",
-    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-manifest": "^2.9.0",
+    "gatsby-plugin-purgecss": "^5.0.0",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-robots-txt": "^1.5.3",
     "gatsby-plugin-sass": "^2.2.1",
