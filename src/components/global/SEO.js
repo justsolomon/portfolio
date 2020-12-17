@@ -34,6 +34,10 @@ const SEO = ({ title }) => {
 
   return (
     <Helmet title={seo.title}>
+      <meta
+        name='google-site-verification'
+        content='yGdYK6tGmhLsJIcdEyc8NMSz2WpP4tGVjkT1K6woGdk'
+      />
       <meta name='description' content={seo.description} />
 
       {seo.siteUrl && <meta property='og:url' content={seo.siteUrl} />}
