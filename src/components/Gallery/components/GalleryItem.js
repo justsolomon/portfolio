@@ -9,6 +9,7 @@ const GalleryItem = ({
   name,
   description,
   skills,
+  production,
   repoUrl,
   liveUrl,
   position,
@@ -53,7 +54,10 @@ const GalleryItem = ({
         </div>
       </div>
 
-      <h3>{name}</h3>
+      <h3>
+        {name}
+        {production && <span className='production-label'> (still in production)</span>}
+      </h3>
       <p>{description}</p>
     </article>
   );
@@ -63,6 +67,7 @@ GalleryItem.displayName = 'GalleryItem';
 GalleryItem.propTypes = {
   id: PropTypes.string.isRequired,
   source: PropTypes.string.isRequired,
+  production: PropTypes.bool,
   thumbnail: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
