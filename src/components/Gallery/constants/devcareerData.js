@@ -19,7 +19,7 @@ const devcareerData = {
     { caption: 'Mobile Navbar | DevCareer', source: full06 },
   ],
   thumbnail: thumb,
-  liveUrl: 'https://devcareer2.netlify.app/',
+  liveUrl: 'https://devcareer.io/',
 };
 
 export default devcareerData;
