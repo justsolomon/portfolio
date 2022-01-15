@@ -19,7 +19,7 @@ import full17 from '../../../assets/images/courserate/full17.jpg';
 
 const courserateData = {
   name: 'CourseRate',
-  production: true,
+  production: false,
   description: `Create, edit and share reviews on courses. Check out reviews posted by others and upvote relevant ones.`,
   skills: ['NextJS', 'GraphQL', 'Chakra UI'],
   sources: [
