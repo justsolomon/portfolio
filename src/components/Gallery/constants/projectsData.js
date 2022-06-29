@@ -4,12 +4,12 @@ import shortlyData from './shortlyData';
 import textifyData from './textifyData';
 import notesData from './notesData';
 import devcareerData from './devcareerData';
-import courserateData from './courserateData';
+// import courserateData from './courserateData';
 import myListData from './myListData';
 
 const projects = [
   myListData,
-  courserateData,
+//   courserateData,
   countriesData,
   textifyData,
   ipAddressData,
