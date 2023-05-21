@@ -1,4 +1,4 @@
-import countriesData from './countriesData';
+// import countriesData from './countriesData';
 import ipAddressData from './ipAddressData';
 import shortlyData from './shortlyData';
 import textifyData from './textifyData';
@@ -10,7 +10,7 @@ import myListData from './myListData';
 const projects = [
   myListData,
 //   courserateData,
-  countriesData,
+//   countriesData,
   textifyData,
   ipAddressData,
   shortlyData,
