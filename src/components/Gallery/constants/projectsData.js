@@ -6,9 +6,11 @@ import notesData from './notesData';
 import devcareerData from './devcareerData';
 // import courserateData from './courserateData';
 import myListData from './myListData';
+import mangaHavenData from './mangaHavenData';
 
 const projects = [
   myListData,
+  mangaHavenData,
 //   courserateData,
 //   countriesData,
   textifyData,

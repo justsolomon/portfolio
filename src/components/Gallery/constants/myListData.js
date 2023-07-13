@@ -20,6 +20,7 @@ const myListData = {
   description: `A task management web application with synchronization across multiple devices.`,
   skills: ['TypeScript', 'React', 'Redux', 'Node.js'],
   sources: [
+    { caption: "MyList Demo", source:"https://user-images.githubusercontent.com/55158465/122650039-92fec800-d128-11eb-9d39-0972217c16c0.gif" },
     { caption: 'Home | MyList', source: full01 },
     { caption: 'Log In | MyList', source: full02 },
     { caption: 'All Boards | MyList', source: full03 },
